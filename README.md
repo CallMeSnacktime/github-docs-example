@@ -1,5 +1,6 @@
 # Writing Good Documentation
 
+
 ## Step 1 - Using Codeblocks.
 
 Codeblocks in markdown make it *very easy* for tech people to **copy, paste, share** code.
@@ -56,29 +57,49 @@ ZeroDivisionError: division by zero
 ```
 > Here is an example of using a codeblock for an error that appears in bash
 
+ When you can, always provide a codeblock instead of a screenshot.
+ If you need to take a screenshot make sure its not a photo from your phone.
+
+> There are certain cases where its okay to take photos with your phone. THis is when you ar shoing something like a keyboard, which does not apprear on a computer screen.
+> If it renders on your computer it should be a screen shot
+
+
 ## Step 2 - How To Take Screenshots
 
  A screen shot is when you capture a part of your screen from a laptop, desktop, or phone.
 
  This is not to be confused with taing a photo with your phone.
 
- ![A photo with your phone](assets/phone_code.jpg)
+
+**DON'T DO THIS**
+
+ ![A photo with your phone](assets/phone.jpg)
+
+**DO THIS INSTEAD**
+
+This is what a screenshot from you computer should look like
+
+ ![A photo with your phone](assets/Screenshot-1.png)
+ > Image taking with Flameshot on Linux.
+
 
 
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#external-references)
+Github extends Markdown to have a list where you can check off items. [^1]
 
 - [x] Finish Step 1
 - [ ] Finish Step 2
 - [ ] Finish Step 3
 
+
+
 ## Step 4 - Use Emojis (Optional)
 
 Github Flavored Markdown (GFM) supports emoji short codes.
-Here are some examples: [<sup>[2]</sup>](#external-references)
+Here are some examples: [^2]
 
-| Name | Shordcode | Emoji |
+| Name | Shortcode | Emoji |
 | --- | --- | --- |
 | Cloud | `:cloud:` | :cloud: |
 | Cloud with lightning| `:cloud_with_lightning:` | 🌩️ |
@@ -93,7 +114,7 @@ Here are some examples: [<sup>[2]</sup>](#external-references)
 You can use the following markdown format to create tables:
 
 ```md
-| Name | Shordcode | Emoji |
+| Name | Shortcode | Emoji |
 | --- | --- | --- |
 | Cloud | `:cloud:` | :cloud: |
 | Cloud with lightning| `:cloud_with_lightning:` | 🌩️ |
@@ -102,7 +123,7 @@ You can use the following markdown format to create tables:
 | Guyana | `:guyana:` | 🇬🇾 |
 ```
 
-Github extends  the functionality of markdown tables to provide more alignment and table cell formattiong options. [<sup>[3]</sup>](#external-references)
+Github extends  the functionality of markdown tables to provide more alignment and table cell formattiong options. [^3]
 
 - Make note of where the pipe key is located. 
 - It should appear above return/enter key.
@@ -116,6 +137,6 @@ Github extends  the functionality of markdown tables to provide more alignment a
 
 - [Github Flavored Markdown Spec](https://github.github.com/gfm/) 
 - [Basic writing and formatting syntax(Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [GFM - Task Lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[1]</sup>
-- [GFM - Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/tree/master) <sup>[2]</sup>
-- [GFM - Tables (with extentions)](https://github.github.com/gfm/#tables-extension-) <sup>[3]</sup>
+[^1]: [GFM - Task Lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)
+[^2]: [GFM - Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/tree/master)
+[^3]: [GFM - Tables (with extentions)](https://github.github.com/gfm/#tables-extension-) 
