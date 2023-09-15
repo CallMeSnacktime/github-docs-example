@@ -56,6 +56,15 @@ ZeroDivisionError: division by zero
 ```
 > Here is an example of using a codeblock for an error that appears in bash
 
+## Step 2 - How To Take Screenshots
+
+ A screen shot is when you capture a part of your screen from a laptop, desktop, or phone.
+
+ This is not to be confused with taing a photo with your phone.
+
+ ![A photo with your phone]()
+
+
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
 Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#external-references)
