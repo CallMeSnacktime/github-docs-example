@@ -37,8 +37,9 @@ number = 5
 result = factorial(number)
 print(f"The factorial of {number} is {result}")
 ```
-- Make note of where the backtick button is located. 
-- It should appear above the tab key, but it may vary based on your keyboard layout.
+- Make note of where the backtick key is located. 
+- It should appear above the tab key.
+- It may vary based on your keyboard layout.
   
 ![backtick](assets/backtick.png)
 
@@ -93,6 +94,10 @@ You can use the following markdown format to create tables:
 ```
 
 Github extends  the functionality of markdown tables to provide more alignment and table cell formattiong options. [<sup>[3]</sup>](#external-references)
+
+- Make note of where the pipe key is located. 
+- It should appear above return/enter key.
+- It may vary based on your keyboard layout.
 
 ![Photo of the pipe character on a keyboard](assets/pipe.png)
 
