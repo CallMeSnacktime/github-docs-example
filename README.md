@@ -40,7 +40,7 @@ print(f"The factorial of {number} is {result}")
 - Make note of where the backtick button is located. 
 - It should appear above the tab key, but it may vary based on your keyboard layout.
   
-![backtick](https://github.com/CallMeSnacktime/github-docs-example/assets/26889538/b27c0236-1d34-4073-b0e6-4dad4ad7f1c8)
+![backtick](assets/backtick.png)
 
 Good Cloud Engineers use codeblocks for both code and errors that appear in the console
  
@@ -94,7 +94,7 @@ You can use the following markdown format to create tables:
 
 Github extends  the functionality of markdown tables to provide more alignment and table cell formattiong options. [<sup>[3]</sup>](#external-references)
 
-![pipe](https://github.com/CallMeSnacktime/github-docs-example/assets/26889538/94fb8c15-cb10-4e9b-9401-6bb54b4482fb)
+![Photo of the pipe character on a keyboard](assets/pipe.png)
 
 
 
