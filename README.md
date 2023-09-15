@@ -62,7 +62,7 @@ ZeroDivisionError: division by zero
 
  This is not to be confused with taing a photo with your phone.
 
- ![A photo with your phone](assets/phhone_code.jpg))
+ ![A photo with your phone](assets/phone_code.jpg)
 
 
 ## Step 3 - Use Github Flavored Markdown Task Lists
